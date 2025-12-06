@@ -13,14 +13,14 @@ export default function Home() {
           </Link>
           <nav className="flex gap-4 items-center">
             <Link href="/marketplace" className="text-gray-600 hover:text-green-600 font-medium transition-all duration-300 hover:scale-105">
-              🛍️ Marketplace
+               Marketplace
             </Link>
             <Link href="/auth/login" className="text-gray-600 hover:text-green-600 font-medium transition-all duration-300 hover:scale-105">
-              🚀 Iniciar Sesión
+              🌱 Iniciar Sesión
             </Link>
             <Link href="/auth/register">
               <Button variant="outline" className="border-green-300 text-green-700 hover:bg-green-50 transition-all duration-300 shadow-sm hover:shadow-md">
-                🌱 Registrarse
+               Registrarse
               </Button>
             </Link>
           </nav>
@@ -45,12 +45,12 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link href="/marketplace">
               <Button size="lg" className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 px-8 py-3 text-lg">
-                🛍️ Explorar Productos
+                Explorar Productos
               </Button>
             </Link>
             <Link href="/products/new">
               <Button size="lg" variant="outline" className="border-2 border-green-300 text-green-700 hover:bg-green-50 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 px-8 py-3 text-lg">
-                💰 Vender Materiales
+                Vender Materiales
               </Button>
             </Link>
           </div>
@@ -60,7 +60,7 @@ export default function Home() {
       {/* Features */}
       <section className="container mx-auto px-4 py-20">
         <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">
-          🌱 ¿Cómo Funciona WaliTake?
+          ¿Cómo Funciona WaliTake?
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
           <Card className="bg-white/70 backdrop-blur-sm border-green-200 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 group">
@@ -112,7 +112,7 @@ export default function Home() {
       <section className="bg-gradient-to-r from-green-600 via-emerald-600 to-teal-600 text-white py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-black/10"></div>
         <div className="container mx-auto px-4 text-center relative z-10">
-          <div className="text-6xl mb-6 animate-pulse">🌍</div>
+          <div className="text-6xl mb-6 animate-pulse">...</div>
           <h2 className="text-4xl font-bold mb-6">
             Únete a la Economía Circular
           </h2>
@@ -122,8 +122,7 @@ export default function Home() {
           </p>
           <Link href="/auth/register">
             <Button size="lg" className="bg-white text-green-600 hover:bg-green-50 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 px-8 py-4 text-lg font-semibold">
-              🚀 Comenzar Ahora - ¡Es Gratis!
-            </Button>
+              Comenzar Ahora            </Button>
           </Link>
         </div>
       </section>
@@ -162,7 +161,7 @@ export default function Home() {
               <h4 className="font-semibold mb-4">Contacto</h4>
               <p className="text-gray-300 text-sm">
                 💚 Juntos por un planeta más verde<br/>
-                Soporte: support@ecomarket.com
+                Soporte: support@walitake.com
               </p>
             </div>
           </div>

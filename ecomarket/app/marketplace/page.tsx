@@ -122,7 +122,7 @@ export default function Marketplace() {
             <div className="flex gap-3">
               <Link href="/test/stripe">
                 <Button variant="outline" className="border-blue-300 text-blue-700 hover:bg-blue-50 transition-all duration-300">
-                  🧪 Probar Pagos
+                   Probar Pagos
                 </Button>
               </Link>
               <Link href="/dashboard">
@@ -276,13 +276,9 @@ export default function Marketplace() {
                         disabled={checkoutLoading === product.id || product.quantity < 1}
                         className="flex-1 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white transition-all duration-300 shadow-lg hover:shadow-xl"
                       >
-                        {checkoutLoading === product.id ? '🛒 Procesando...' : '🛒 Comprar Ahora'}
+                        {checkoutLoading === product.id ? '🛒 Procesando...' : ' Comprar Ahora'}
                       </Button>
-                      <Link href={`/products/${product.id}`} className="flex-1">
-                        <Button variant="outline" className="w-full border-green-300 text-green-700 hover:bg-green-50 transition-all duration-300">
-                          👀 Ver Detalles
-                        </Button>
-                      </Link>
+                      
                     </div>
                   </CardContent>
                 </Card>

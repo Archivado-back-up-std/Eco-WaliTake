@@ -85,7 +85,7 @@ export default function Login() {
                 </span>
               ) : (
                 <span className="flex items-center gap-2">
-                  🚀 Iniciar Sesión
+                   Iniciar Sesión
                 </span>
               )}
             </Button>
