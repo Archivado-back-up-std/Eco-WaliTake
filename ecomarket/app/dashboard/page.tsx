@@ -15,6 +15,10 @@ interface Product {
   unit: string
   status: string
   createdAt: string
+  seller: {
+    id: string
+    name: string
+  }
 }
 
 interface Order {
@@ -23,12 +27,17 @@ interface Order {
   totalPrice: number
   status: string
   createdAt: string
+  buyerId: string
+  sellerId: string
   product: {
     title: string
     price: number
     unit: string
   }
   seller?: {
+    name: string
+  }
+  buyer?: {
     name: string
   }
 }
@@ -65,7 +74,7 @@ export default function Dashboard() {
       const productsData = await productsResponse.json()
       // Filter products by current user
       const userProducts = productsData.products.filter(
-        (p: Product) => p.sellerId === session?.user?.id
+        (p: Product) => p.seller.id === session?.user?.id
       )
       setProducts(userProducts)
 
@@ -103,6 +112,9 @@ export default function Dashboard() {
           </Link>
           <div className="flex gap-4 items-center">
             <span>Hola, {session.user.name}</span>
+            <Link href="/marketplace">
+              <Button variant="outline">Ir al Marketplace</Button>
+            </Link>
             <Button variant="outline" onClick={() => signOut()}>
               Cerrar Sesión
             </Button>

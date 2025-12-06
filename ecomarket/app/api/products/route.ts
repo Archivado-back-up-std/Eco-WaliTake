@@ -35,7 +35,7 @@ export async function GET(request: NextRequest) {
       where,
       include: {
         seller: {
-          select: { name: true, businessName: true, location: true }
+          select: { id: true, name: true, businessName: true, location: true }
         }
       },
       skip,

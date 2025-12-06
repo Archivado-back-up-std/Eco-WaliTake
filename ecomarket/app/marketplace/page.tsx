@@ -28,7 +28,7 @@ export default function Marketplace() {
   const [products, setProducts] = useState<Product[]>([])
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState("")
-  const [category, setCategory] = useState("")
+  const [category, setCategory] = useState("all")
   const [city, setCity] = useState("")
 
   useEffect(() => {
@@ -39,7 +39,7 @@ export default function Marketplace() {
     try {
       const params = new URLSearchParams()
       if (search) params.append("search", search)
-      if (category) params.append("category", category)
+      if (category && category !== "all") params.append("category", category)
       if (city) params.append("city", city)
 
       const response = await fetch(`/api/products?${params}`)
@@ -83,7 +83,7 @@ export default function Marketplace() {
                 <SelectValue placeholder="Categoría" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">Todas las categorías</SelectItem>
+                <SelectItem value="all">Todas las categorías</SelectItem>
                 <SelectItem value="organico">Orgánico</SelectItem>
                 <SelectItem value="plastico">Plástico</SelectItem>
                 <SelectItem value="vidrio">Vidrio</SelectItem>
