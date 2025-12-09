@@ -2,16 +2,6 @@
 
 EcoMarket es una plataforma de comercio electrónico sostenible dedicada a la compra y venta de materiales reciclables. Conecta a vendedores de residuos reciclables con compradores interesados en productos ecológicos, promoviendo la economía circular y la reducción de residuos.
 
-## 🚀 Características
-
-- **Autenticación de usuarios**: Registro e inicio de sesión seguro con NextAuth.js
-- **Marketplace interactivo**: Exploración de productos con filtros y búsqueda
-- **Gestión de productos**: Vendedores pueden agregar, editar y eliminar productos
-- **Dashboard de usuario**: Panel para gestionar productos, pedidos y perfil
-- **Simulación de pagos**: Integración con Stripe en modo desarrollo
-- **Interfaz ecológica**: Diseño con tema verde y componentes accesibles
-- **Base de datos local**: SQLite con Prisma para desarrollo rápido
-
 ## 🛠️ Tecnologías Utilizadas
 
 ### Frontend
