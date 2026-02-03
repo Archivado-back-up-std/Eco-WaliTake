@@ -2,7 +2,7 @@
 
 EcoMarket es una plataforma de comercio electrónico sostenible dedicada a la compra y venta de materiales reciclables. Conecta a vendedores de residuos reciclables con compradores interesados en productos ecológicos, promoviendo la economía circular y la reducción de residuos.
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 ### Frontend
 - **Next.js 16**: Framework React con App Router
@@ -23,7 +23,7 @@ EcoMarket es una plataforma de comercio electrónico sostenible dedicada a la co
 - **ESLint**: Linting de código
 - **Turbopack**: Empaquetador rápido de Next.js
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 ```
 ecomarket/
@@ -57,7 +57,7 @@ ecomarket/
 - **npm**: Gestor de paquetes
 - **Git**: Para clonar el repositorio
 
-## 🚀 Instalación y Configuración
+## Instalación y Configuración
 
 ### 1. Clonar el repositorio
 ```bash
@@ -110,7 +110,7 @@ npm run dev
 
 La aplicación estará disponible en `http://localhost:3000`
 
-## 📖 Uso
+## Uso
 
 ### Para vendedores:
 1. Regístrate como vendedor
@@ -124,7 +124,7 @@ La aplicación estará disponible en `http://localhost:3000`
 3. Compra productos con simulación de pago
 4. Visualiza tu historial de pedidos
 
-## 🧪 Scripts Disponibles
+## Scripts Disponibles
 
 ```bash
 npm run dev          # Inicia servidor de desarrollo
@@ -134,7 +134,7 @@ npm run lint         # Ejecuta ESLint
 npm run seed         # Pobla base de datos con datos de prueba
 ```
 
-## 🔧 Desarrollo
+## Desarrollo
 
 ### Estructura de la base de datos
 El esquema de Prisma incluye las siguientes entidades principales:
@@ -157,7 +157,7 @@ La aplicación usa NextAuth.js con soporte para:
 - Credenciales (email/password)
 - OAuth con GitHub (opcional)
 
-## 🚀 Despliegue
+## Despliegue
 
 ### Desarrollo Local
 Sigue los pasos de instalación arriba.
@@ -175,7 +175,7 @@ npm run dev  # En una terminal
 ngrok http 3000  # En otra terminal
 ```
 
-## 🤝 Contribución
+## Contribución
 
 1. Fork el proyecto
 2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
@@ -183,11 +183,11 @@ ngrok http 3000  # En otra terminal
 4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
 5. Abre un Pull Request
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
-## 📞 Contacto
+## Contacto
 
 - **Autor**: srllamadev
 - **Repositorio**: [GitHub](https://github.com/srllamadev/Ecommmerce-WaliTake)
